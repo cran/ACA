@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "dev.off", "png", "pdf")
+importFrom("graphics", "lines", "par", "plot", "points", "segments", "text", "rect", "axis", "box", "locator", "legend", "title")
+importFrom("stats", "median", "wilcox.test", "pnorm")
+importFrom("utils", "read.table", "write.table")
